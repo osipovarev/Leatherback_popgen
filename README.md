@@ -1,3 +1,6 @@
+
+# 1. Genetic load analysis
+
 ### Count total number of variants by impact
 ```
 scratch
@@ -50,3 +53,23 @@ do \
 done >> all_samples.hom_het_by_impact.tsv
 
 ```
+
+
+# 2. Inbreeding and genetic load
+
+### Calculation of F_ROH for each individual of leatherback turtle
+
+genome size = 2,164,762,090 bp
+
+```
+WDIR=/nese/meclab/Katya/ROH_turtles/
+SCRATCH=/scratch/workspace/lkomoroske_umass_edu-Dc_WGR/
+SAMPLES=$SCRATCH/Dc_SNPs_May24_samplelist.txt
+
+sbatch --array=1-153 jobs.bcftools_roh.sh
+
+
+for SAMPLE in $(cat $SAMPLES); do L_ROH=$(grep ^RG ROH_per_individual/$SAMPLE.roh.txt | awk '{sum += $6} END {print sum}'); echo -e "$SAMPLE\t$L_ROH"; done > all_samples.L_ROH.tsv
+
+```
+
