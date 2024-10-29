@@ -12,9 +12,9 @@ do i=${f%.g.genes.txt}; \
 	high=$(cut -f5 $f | tail -n +3 | sum_stdin.py); \
 	low=$(cut -f6 $f | tail -n +3 | sum_stdin.py); \
 	mod=$(cut -f7 $f | tail -n +3 | sum_stdin.py); \
-	modif=$(cut -f8 $f | tail -n +3 | sum_stdin.py); \
+	modif=$(cut -f5,6,7,8 $f | awk '$0=$4-$1-$2-$3{print}' | tail -n +3 | sum_stdin.py); \
 	 echo -e "$i\t$high\t$low\t$mod\t$modif"; \
-done > $WDIR/all_samples.total_variant_by_effect.tsv
+done > $WDIR/all_samples.total_variant_by_impact.tsv
 
 ```
 
