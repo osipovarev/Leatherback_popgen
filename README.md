@@ -55,6 +55,17 @@ done >> all_samples.hom_het_by_impact.tsv
 ```
 
 
+### Re-count number of homozygotes splitting into hom reference (0/0) and hom alternate (1/1)
+```
+
+awk '{OFS = "\t"; $6=$5-$4; print}' all_samples.hom_het_by_impact_with_ref.tsv | awk '$6!=0{print}' | cut -f1-3,6 | sed 's/hom/hom_ref/' > hom_ref.by_impact.tsv
+
+cut -f1-4 all_samples.hom_het_by_impact_with_ref.tsv | sed 's/hom/hom_alt/' > hom_alt.by_impact.tsv
+
+cat hom_ref.by_impact.tsv hom_alt.by_impact.tsv > all_samples.hom_het_by_impact.ref_alt.tsv
+```
+
+
 # 2. Inbreeding and genetic load
 
 ### Calculation of F_ROH for each individual of leatherback turtle
