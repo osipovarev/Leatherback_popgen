@@ -106,7 +106,7 @@ for g in EP WP; \
 do \
 	for i in {2..8}; \
 	do \
-		paste <(cut -f1 filt.EP.ld_pruned_0.2.derCor_222.nosex | sed 's/_bb_noq.g//') filt.$g.ld_pruned_0.2.derCor_222.$i.Q | sed 's/ /\t/g' > named.filt.$g.ld_pruned_0.2.derCor_222.$i.Q; \
+		paste <(cut -f1 filt.$g.ld_pruned_0.2.derCor_222.nosex | sed 's/_bb_noq.g//') filt.$g.ld_pruned_0.2.derCor_222.$i.Q | sed 's/ /\t/g' > named.filt.$g.ld_pruned_0.2.derCor_222.$i.Q; \
 	done; \
 done
 ```
