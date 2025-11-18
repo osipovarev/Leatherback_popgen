@@ -14,7 +14,10 @@ DAPC analysis of Rapture (RAD Capture) reseq samples (n=637),
 and Admixture analysis.
 
 ### 1.1. [PCA analysis](https://github.com/osipovarev/Leatherback_popgen/blob/main/PCA/README.md)
+Find associated scripts [here](https://github.com/osipovarev/Leatherback_popgen/blob/main/PCA/)
+
 ### 1.2. [Admixture analysis](https://github.com/osipovarev/Leatherback_popgen/blob/main/Admixture_222//README.md)
+Find associated scripts [here](https://github.com/osipovarev/Leatherback_popgen/blob/main/Admixture_222/)
 
 Visualization and statistical analysis can be found in [this notebook](https://github.com/osipovarev/Leatherback_popgen/blob/main/population_structure_analysis.ipynb)
 
@@ -24,6 +27,9 @@ Visualization and statistical analysis can be found in [this notebook](https://g
 
 Visualization and statistical analysis can be found in [this notebook](https://github.com/osipovarev/Leatherback_popgen/blob/main/heterozygosity_analysis.ipynb)
 
+Find associated scripts [here](https://github.com/osipovarev/Leatherback_popgen/blob/main/Heterozygosity_222/)
+
+
 
 ***
 ## 3. [Inbreeding analysis](https://github.com/osipovarev/Leatherback_popgen/blob/main/ROH_222/README.md)
@@ -31,6 +37,8 @@ Visualization and statistical analysis can be found in [this notebook](https://g
 Analysis of Runs of Homozygosity (ROHs) and inbreeding coefficient (F_ROH) for each individual.
 
 Visualization and statistical analysis can be found in [this notebook](https://github.com/osipovarev/Leatherback_popgen/blob/main/inbreeding_analysis.ipynb)
+
+Find associated scripts [here](https://github.com/osipovarev/Leatherback_popgen/blob/main/ROH_222/)
 
 
 ***
@@ -40,10 +48,16 @@ Genetic load analysis relied on the variant fitness effect annotation with two t
 Additionally, genetic load was assessed with Rxy analysis.
 
 ### 4.1. [snpEff analysis](https://github.com/osipovarev/Leatherback_popgen/blob/main/snpEff_222/README.md)
+Find associated scripts [here](https://github.com/osipovarev/Leatherback_popgen/blob/main/snpEff_222/)
+
 ### 4.2. [ANNOVAR analysis](https://github.com/osipovarev/Leatherback_popgen/blob/main/ANNOVAR_222/README.md)
+Find associated scripts [here](https://github.com/osipovarev/Leatherback_popgen/blob/main/ANNOVAR_222/)
+
 ### 4.3. [Rxy analysis](https://github.com/osipovarev/Leatherback_popgen/blob/main/Rxy_222/README.md)
+Find associated scripts [here](https://github.com/osipovarev/Leatherback_popgen/blob/main/Rxy_222/)
 
 Visualization and statistical analysis can be found in [this notebook](https://github.com/osipovarev/Leatherback_popgen/blob/main/genetic_load.ipynb)
+
 
 
 ***
