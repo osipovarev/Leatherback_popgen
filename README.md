@@ -1,5 +1,5 @@
 
-# Conservation genomics of leatherback seaturtles
+# Conservation genomics of leatherback sea turtles
 
 This README describes analyses for the manuscript   
 Genomic indicators of risk and resilience in global leatherback turtle populations
