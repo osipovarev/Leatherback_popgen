@@ -3,6 +3,9 @@
 
 This README describes analyses for the manuscript   
 Genomic indicators of risk and resilience in global leatherback turtle populations
+[TODO: link to preprint]()
+
+all background information on collected smaples can be found [here](https://github.com/osipovarev/Leatherback_popgen/blob/main/dc_222_samples_info.tsv)
 
 
 ## 1. Population structure analysis
