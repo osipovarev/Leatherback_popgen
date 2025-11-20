@@ -21,7 +21,7 @@ sbatch job.plink_make_bed.sh $VCF derCor_222
 derCor_42:  15837364 variants and 41 samples pass filters and QC.\
 derCor_28:  4811884 variants and 28 samples pass filters and QC.\
 derCor_153: 10787173 variants and 153 samples pass filters and QC.\
-derCor_222: 17691434 variants and 222 samples pass filters and QC.\
+derCor_222: 17691434 variants and 222 samples pass filters and QC.
 
 
 ## 2. Linkage Disequilibrium (LD) Pruning
@@ -36,11 +36,11 @@ ld_pruned_0.2.derCor_42.log:  11369768 of 15837364 variants removed.\
 ld_pruned_0.2.derCor_28.log:   4184835 of  4811884 variants removed.\
 ld_pruned_0.2.derCor_153.log:  6426681 of 10787173 variants removed.\
 ld_pruned_0.2.derCor_222.log:  9630303 of 17691434 variants removed.\
-ld_pruned_0.2.derCor_222.log:  7245510 of 13590825 variants removed.\
+ld_pruned_0.2.derCor_222.log:  7245510 of 13590825 variants removed.
 
 ### r=0.1:
 ld_pruned_0.1.derCor_153.log:  7351951 of 10787173 variants removed.\
-ld_pruned_0.1.derCor_222.log: 11555824 of 17691434 variants removed.\
+ld_pruned_0.1.derCor_222.log: 11555824 of 17691434 variants removed.
 
 
 ## 3. PCA
