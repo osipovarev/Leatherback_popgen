@@ -22,6 +22,8 @@ Find associated scripts [here](https://github.com/osipovarev/Leatherback_popgen/
 ### 1.2. [Admixture analysis](https://github.com/osipovarev/Leatherback_popgen/blob/main/Admixture_222//README.md)
 Find associated scripts [here](https://github.com/osipovarev/Leatherback_popgen/blob/main/Admixture_222/)
 
+### 1.2. [Rapture analysis](https://github.com/kfphillips/leatherback_rapture/)
+
 Visualization and statistical analysis can be found in [this notebook](https://github.com/osipovarev/Leatherback_popgen/blob/main/population_structure_analysis.ipynb)
 
 
